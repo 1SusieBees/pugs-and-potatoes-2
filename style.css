@@ -1,0 +1,81 @@
+
+/* PUGS & POTATOES WEBSITE */
+
+/* The whole page */
+body {
+    background-color: #ffe8ba;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #583111;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main website title */
+h1 {
+    background-color: #7ef0f2;
+    color: #3b6974;
+    font-size: 45px;
+    padding: 25px;
+    border-radius: 25px;
+    border: 5px dashed #ffffff;
+}
+
+/* Smaller headings */
+h2 {
+    color: #5da7b1;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* The funny facts list */
+ul {
+    background-color: #9bdfff;
+    border: 4px dotted #f1eeea;
+    border-radius: 20px;
+    padding: 25px 25px 25px 45px;
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* Each funny fact */
+li {
+    font-size: 19px;
+    margin: 12px 0;
+}
+
+/* Pug and potato buttons */
+button {
+    background-color: #3cb3d4;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* When the mouse hovers over a button */
+button:hover {
+    background-color: #136f97;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Pug pictures inside the list */
+ul img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 4px solid rgb(43, 95, 155);
+}
